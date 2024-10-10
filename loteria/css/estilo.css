@@ -1,0 +1,25 @@
+ .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh; /* Altura total de la pantalla */
+            margin: 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 350px; /* Ajusta el ancho según tus necesidades */
+            background: #fff;
+        }
+        td {
+            border: 1px solid #ccc; /* Borde de las celdas */
+            text-align: center;
+            vertical-align: middle;
+            padding: 5px;
+        }
+        img {
+            max-width: 100%; /* Mantiene la imagen dentro de la celda */
+            height: 100%; /* Mantiene la proporción de la imagen */
+            width: 100%;
+            object-fit: cover;
+        }
